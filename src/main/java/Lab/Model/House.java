@@ -1,5 +1,7 @@
 package Lab.Model;
 
+import lombok.*;
+
 /**
  * Lombok is a took that can automatically generate boilerplate code such as ToString, Equals, HashCode, Constructors,
  * and all the needed getters/setters at runtime using annotations. Lombok is not part of Spring, but will be quite
