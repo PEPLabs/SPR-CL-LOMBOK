@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/HouseTestSuite.java",
+      "testCases": [
+        {
+          "methodName": "testEqualsAndHashCodeMethods",
+          "label": "Verify equals() and hashCode() methods of House",
+          "description": "Creates two House instances with identical properties and checks that equals() returns true and hashCode() values are equal, ensuring proper implementation."
+        },
+        {
+          "methodName": "testToStringMethod",
+          "label": "Verify toString() method of House",
+          "description": "Creates a House instance and checks that the toString() method contains expected property values, confirming that toString() has been properly overridden."
+        }
+      ]
+    }
+  ]
+}
